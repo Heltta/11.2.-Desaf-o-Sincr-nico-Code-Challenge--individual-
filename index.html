@@ -14,18 +14,23 @@
   <body
     class="bg-primary-subtle vw-100 d-flex flex-column align-items-center p-5"
   >
-    <form action="#" method="post" class="w-75">
+    <form action="" method="post" class="w-75" id="personalDataForm">
       <div class="mb-3">
         <label class="form-label" for="name">Nombre</label
-        ><input class="form-control" id="name" type="text" />
+        ><input name="name" class="form-control" id="name" type="text" />
       </div>
       <div class="mb-3">
         <label class="form-label" for="surname">Apellido</label
-        ><input class="form-control" id="surname" type="text" />
+        ><input name="surname" class="form-control" id="surname" type="text" />
       </div>
       <div class="mb-3">
         <label class="form-label" for="birthdate">Fecha de nacimiento</label
-        ><input class="form-control" id="birthdate" type="date" />
+        ><input
+          name="birthdate"
+          class="form-control"
+          id="birthdate"
+          type="date"
+        />
       </div>
       <button class="btn btn-primary" type="submit">Enviar</button>
     </form>
@@ -44,5 +49,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
